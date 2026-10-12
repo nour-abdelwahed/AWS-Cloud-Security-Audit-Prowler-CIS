@@ -214,24 +214,22 @@ Validated controls included:
 This confirmed that the selected IAM password-policy remediation was successfully implemented and independently validated through a second Prowler assessment.
 This final validation step ensured that remediation was not only applied, but also verified through an automated compliance rescan.
 
-**📉 Before vs After Results**, use:
-
-```markdown
 ## 📉 Before vs After Results
 
 The cloud security remediation process produced the following measurable improvements:
 
-| Security Metric | Initial Assessment | Post-Remediation Assessment | Improvement |
-|---|---:|---:|---:|
-| Total Findings | 50 | 50 | — |
-| Passed Controls | 22 | 25 | +3 |
-| Failed Controls | 28 | 25 | -3 |
-| Pass Rate | 44% | 50% | +6 percentage points |
-| Fail Rate | 56% | 50% | -6 percentage points |
-| Password Length Control | FAIL | PASS | Remediated |
-| Password Reuse Control | FAIL | PASS | Remediated |
+| Security Metric          | Initial Assessment | Post-Remediation Assessment | Improvement |
+|---------------------------|---------------------|-------------------------------|-------------|
+| Total Findings            | 50                  | 50                             | —           |
+| Passed Controls           | 22                  | 25                             | +3          |
+| Failed Controls           | 28                  | 25                             | -3          |
+| Pass Rate                 | 44%                 | 50%                            | +6%         |
+| Fail Rate                 | 56%                 | 50%                            | -6%         |
+| Password Length Control   | FAIL                | PASS                           | Remediated  |
+| Password Reuse Control    | FAIL                | PASS                           | Remediated  |
 
-These results demonstrate measurable improvement in the AWS environment's security and compliance posture.
+These results demonstrate measurable improvement in the AWS environment's security and compliance 
+posture.
 
 ## 🔄 Cloud Security Assessment Lifecycle
 Initial Assessment
