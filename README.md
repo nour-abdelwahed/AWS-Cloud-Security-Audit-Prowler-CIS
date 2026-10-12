@@ -181,8 +181,6 @@ The intentionally created overly permissive IAM policy was deleted from the AWS 
 ## 🔁 Phase 7 — Post-Remediation Scan
 
 After remediation was completed, the same Prowler CIS assessment was performed again:
-
-```bash
 prowler aws --compliance cis_3.0_aws
 
 The follow-up assessment showed measurable improvement.
