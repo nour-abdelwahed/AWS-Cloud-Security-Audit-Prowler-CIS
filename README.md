@@ -181,19 +181,24 @@ The intentionally created overly permissive IAM policy was deleted from the AWS 
 ## 🔁 Phase 7 — Post-Remediation Scan
 
 After remediation was completed, the same Prowler CIS assessment was performed again:
+
+```bash
 prowler aws --compliance cis_3.0_aws
+```
 
-The follow-up assessment showed measurable improvement.
-Metric	Before	After
-Total Findings	50	50
-Passed Controls	22	25
-Failed Controls	28	25
-Pass Rate	44%	50%
-Fail Rate	56%	50%
+The follow-up assessment showed measurable improvement:
 
+| Metric           | Before | After |
+|------------------|--------|-------|
+| Total Findings   | 50     | 50    |
+| Passed Controls  | 22     | 25    |
+| Failed Controls  | 28     | 25    |
+| Pass Rate        | 44%    | 50%   |
+| Fail Rate        | 56%    | 50%   |
 
-The results demonstrated that the remediation actions successfully improved the AWS environment's security posture.
-Three controls changed from FAIL to PASS between the initial and post-remediation assessments.
+The results demonstrate that the remediation actions successfully improved the AWS environment's security posture. 
+
+Three controls changed from **FAIL** to **PASS** between the initial and post-remediation assessments.
 
 ## ✅ Phase 8 — Post-Remediation Validation
 The post-remediation Prowler report was manually searched for password-related controls.
