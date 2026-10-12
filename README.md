@@ -304,5 +304,6 @@ The project also demonstrated that previously failed IAM password-policy control
 
 ## ⚠️ Disclaimer
 This project was conducted exclusively within a personally controlled AWS environment for educational, cybersecurity training, and portfolio purposes only.
+
 Controlled security misconfigurations were intentionally introduced within the lab environment and subsequently remediated.
 No third-party AWS accounts, production systems, or unauthorized cloud resources were assessed.
